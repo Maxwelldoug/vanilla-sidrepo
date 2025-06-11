@@ -20,7 +20,7 @@ stages:
     commands:
     - lpkg --unlock
     - apt-get update
-    - apt-get upgrade -y initramfs-tools initramfs-tools-core linux-headers-amd64 linux-image-amd64
+    - apt-get upgrade -y initramfs-tools initramfs-tools-core linux-headers-amd64 linux-image-amd64 -force-confold
 
   # Put your custom actions above this comment
 
